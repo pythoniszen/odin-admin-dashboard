@@ -146,7 +146,7 @@ button:hover {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 3fr 1fr;
 }
 
 #projects {
@@ -159,7 +159,6 @@ button:hover {
 
 #projects-header {
   grid-column: 1 / 3;
-  display: flex;
   align-self: end;
   margin-left: 20px;
 }
@@ -189,6 +188,33 @@ button:hover {
   display: flex;
   align-self: flex-end;
   margin-bottom: 1em;
+}
+
+#dashboard-side-container {
+  display: grid;
+  background-color: rgb(228, 228, 228);
+  grid-template-rows: 0.36fr 2fr 0.36fr 2fr 0.36fr;
+  grid-template-columns: 1fr;
+  gap: 1em;
+}
+
+.dashboard-side-header {
+  align-self: end;
+  margin-left: 20px;
+}
+
+#announcements {
+  margin-left: 1em;
+  margin-right: 1em;
+  background-color: white;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#trending {
+  margin-left: 1em;
+  margin-right: 1em;
+  background-color: white;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 769px) {
